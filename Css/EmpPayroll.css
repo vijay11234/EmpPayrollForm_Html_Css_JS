@@ -2,6 +2,7 @@
 body {
     margin: 0;
     height: 100%;
+    background-color: green;
 }
 
 .header {
@@ -41,9 +42,9 @@ body {
     color: #42515f;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 /* UC2 */
 .form-content {
@@ -158,12 +159,13 @@ select {
     padding: 7px 7px;
     border: 1px solid grey;
     cursor: pointer;
+    margin: 4px 32px;
 }
 
 .submitButton {
     border: none;
     border: 1px solid grey;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .cancelButton {
@@ -174,6 +176,8 @@ select {
     .cancelButton {
         margin-left: 0px;
         color: black;
+        background-color: blue;
+        
     }
     .form {
         width: 85%;
@@ -198,3 +202,32 @@ select {
     flex-direction: column-reverse;
     align-items: flex-start;
 }
+
+/* On screens that are 992px wide or less, the background color is blue
+@media only screen and (max-width: 960px) {
+    .cancelButton {
+      background-color:green;
+      color: white;
+      margin-left: 0px;
+    }
+    .form{
+        width: 85%;
+        padding: 44px 20px;
+    }
+    .profile-radio-content{
+        flex-flow: wrap;
+    }
+  } */
+  /* body{
+      background-color: green;
+  } */
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
+  
