@@ -9,7 +9,7 @@ const createInnerHtml = () => {
     const innerHtml = `${headerHtml}
     <tr>
         <td><img class="profile" alt="" src="../Assets/Ellipse -2.png"></td>
-        <td>Shubham lokhande</td>
+        <td>Vijay kumar</td>
         <td>Male</td>
         <td><div class='dept-label'>HR</div>
             <div class='dept-label'>Finance</div></td>
