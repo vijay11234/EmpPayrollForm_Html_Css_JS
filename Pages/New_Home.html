@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/New_EmpPayroll.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">
-    <title>Employee Payroll Portal</title>
-    <script src="../Js/EmpHome.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/New_EmpPayroll.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Employee Payroll App</title>
 </head>
 <body>
-    <header class="header-content header">
-        <div class="logo-content">
-            <img src="../Assets/logo.png" width=60px alt="logo">
-            <div>
-                <span class="emp-text ">EMPLOYEE</span>
-                <span class="emp-text emp-payroll">PAYROLL</span>
-            </div>
-        </div>
-    </header>
-    <div class="main-content">
-        <div class="header-content">
-            <div class="emp-detail-text">
-                Employee Details <div class="emp-count">10</div>
-            </div>
-            <a href="../Pages/EmpPayroll.html" class="add-button">
-                <img src="../Assets/Icons/plus.png" width="35px" alt=""/>Add User</a>
-        </div>
-        <div class="table-main">
-            <table class="table" id="display">
-            </table>
-        </div> 
+  <header class="header-content header">
+    <div class="logo-content">
+      <img src="../Assets/logo.png" alt="">
+      <div>
+        <span class="emp-text">EMPLOYEE</span><br>
+        <span class="emp-text emp-payroll">PAYROLL</span>
+      </div>
     </div>
+  </header>
+  <div class="main-content">
+    <div class="header-content">
+      <div class="emp-detail-text">
+        Employee Details <div class="emp-count">10</div>
+      </div>
+      <a href="../Pages/EmpPayroll.html" class="add-button">
+        <img src="../assets/icons/plus.png" alt="">Add User</a>
+    </div>
+    <div class="table-main">
+      <table id="table-display" class="table"></table>
+    </div>
+  </div>
+  <script src="../Js/EmpHome.js"></script>
+  <script src="../Js/Utility.js"></script>
+  <script src="../Js/Site_properties.js"></script>
+  <script src="../Js/EmployeePayroll.js"></script>
 </body>
 </html>
